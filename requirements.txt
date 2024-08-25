@@ -1,0 +1,3 @@
+fastapi==0.112.2
+ultralytics==8.2.81
+uvicorn==0.30.6
