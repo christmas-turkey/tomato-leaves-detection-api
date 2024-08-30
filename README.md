@@ -28,7 +28,7 @@ FIREWORKS_API_KEY=<YOUR FIREWORKS API KEY>
 Check if the API is running.
 
 ```text
-  GET /health
+GET /health
 ```
 
 #### Generate predictions
