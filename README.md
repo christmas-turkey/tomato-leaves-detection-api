@@ -27,7 +27,7 @@ FIREWORKS_API_KEY=<YOUR FIREWORKS API KEY>
 
 Check if the API is running.
 
-```http
+```text
   GET /health
 ```
 
@@ -35,8 +35,8 @@ Check if the API is running.
 
 Predict classes, bboxes and confidence scores of the input image and return LLM response.
 
-```http
-  POST /api/predict
+```text
+POST /api/predict
 ```
 
 | Parameter | Type     | Description                       |
