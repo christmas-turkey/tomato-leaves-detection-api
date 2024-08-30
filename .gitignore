@@ -1,7 +1,19 @@
+# Exclude virtual environment
 /.venv
 /venv
 
+# Exclude YOLO training results
+/runs
+
+# Exclude dataset
+/Tomato-Leaf-Disease-63
+
+# Ignore pycache
+**/__pycache__/
+
+# Exclude personal tokens
 .env
 
-**.ipynb
 **.db
+**.pt
+**.zip

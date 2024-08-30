@@ -1,0 +1,12 @@
+/.venv
+/venv
+
+/runs
+
+/Tomato-Leaf-Disease-63
+
+**/__pycache__/
+
+**.db
+**.pt
+**.zip
