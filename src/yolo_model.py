@@ -36,7 +36,10 @@ class TomatoLeavesDetectionModel:
             image (bytes): The input image.
         
         Returns:
-            The predicted classes, boxes, confidence, and labels.
+            - classes: The classes of the detected objects.
+            - boxes: The bounding boxes of the detected objects.
+            - conf: The confidence scores of the detected objects.
+            - labels: The labels of the detected objects.
         """
 
         img = self._load_img(image)
